@@ -13,8 +13,8 @@ public class DatabaseConnector {
         Connection connect = null;
         String db = null, driver = null, url = null, login = null, pwd = null;
         Properties props = new Properties();
-							//System.out.println(Paths.get("config.properties").toAbsolutePath());
-        try(FileInputStream read = new FileInputStream("/home/dik/Desktop/Java/apiGradle/src/main/resources/config.properties");) {
+        System.out.println(Paths.get("config.properties").toAbsolutePath());
+        try(FileInputStream read = new FileInputStream(Paths.get("config.properties").toAbsolutePath().toString());) {
             props.load(read);
             db = props.getProperty("db");
             driver = props.getProperty("driver");
