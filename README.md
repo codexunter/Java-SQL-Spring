@@ -1,4 +1,4 @@
-# A simple back-end app for managing a relational database, written in Java and SQL, without Spring. The description and an example of usage are provided in the videos below
+# A simple back-end app for managing a relational database, written in Java and SQL, with use of Spring Boot
 
 ## Launching the app and viewing records in tables (GET request)
 
