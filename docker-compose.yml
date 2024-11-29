@@ -1,7 +1,8 @@
 version: '3.8'
 services:
     app:
-        build: .
+        image: 'postalbox112000/simple-api-java'
+        #build: .
         container_name: 'api-maven'
         ports:
             - 8080:8080
